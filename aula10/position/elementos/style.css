@@ -1,0 +1,26 @@
+a {
+    background-color: blue;
+    padding: 7px;
+    text-decoration: none;
+    border: 7px;
+    color: black;
+}
+
+img {
+ opacity: 0.5; /*valores entre 0 e 1*/
+  transform: scale(0.5);
+}
+
+a:hover {
+    background-color:goldenrod;
+    padding: 15px;
+    border-radius: 50px;
+    color: azure;
+}
+p:hover {
+    color: green;
+}
+img:hover{
+    opacity: 1;
+}
+   
