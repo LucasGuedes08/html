@@ -1,0 +1,162 @@
+button {
+    display: block;
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 150px ;
+}
+
+.cor {
+    background-color: red;
+    }
+
+.cor:hover {
+    background-color: cornflowerblue;
+    transition: background-color 2s ease ;
+}
+ .cresce {
+    background-color: black;
+    color: white;
+    transition: width 2s ease;
+ }
+.cresce:hover {
+    width: 300px;
+    }
+
+.atraso {
+    background-color: red;
+    transition: 0.5s ease;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px 0px 20px cornflowerblue;
+}
+
+.atraso:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 80px;
+    width: 800px;
+    transition: background-color 2s ease;
+    transition: width 2s ease;
+    box-shadow: 0px 0px 30px black;
+}
+
+.container:hover {
+    background-color: red;
+    width: 1000px;
+    
+}
+
+.p1 {
+    background-color: red;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 800px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition:  2s ease;
+    transition:  2s ease;
+    }
+
+.p1:hover {
+    color: white;
+    font-size: 20px;
+    }
+
+.p2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 800px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 2s ease;
+    transition: 2s ease;
+}
+
+.p2:hover {
+    color: red;
+    font-size: 20px;
+    }
+
+.p3 {
+   background-color: red;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 800px;
+    border-radius: 10px;
+    font-size: 15px; 
+    transition: 2s ease;
+    transition: 2s ease;
+    transition-delay: 1s;
+}
+
+.p3:hover {
+    color: white;
+    font-size: 20px;
+    }
+
+img {
+    height: 500px;
+    width: 700px;
+    transition: 2s ease;
+}
+
+img:hover {
+    height: 700px;
+    width: 900px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    transition: 1s ease;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        transition: 1s ease;
+    }
+
+    a:hover {
+        color: red;
+        font-size: 33px;
+        text-decoration: underline;
+        box-shadow: 0px 0px 20px red;
+    }
+
+    

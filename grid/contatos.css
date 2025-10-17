@@ -1,3 +1,4 @@
+
 th {
     background-color:deepskyblue;
 }
@@ -20,4 +21,28 @@ td , th {
 
 .ap{
     background-color: greenyellow;
+
+th {
+    background-color:deepskyblue;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td , th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.nota {
+    background-color: red;
+    
+}
+
+.ap{
+    background-color: greenyellow;
+
 }
