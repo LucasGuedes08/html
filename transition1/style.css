@@ -163,6 +163,55 @@ nav a:hover::after {
   color:white;
 }
 
+.cards2 {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 60px 40px;
+}
+
+.cardi {
+    background-color: #2b0a0a;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+  transition: all 0.4s ease;
+  border: 2px solid #8b0000;
+}
+
+.cardi img {
+    width: 15%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.cardi h3 {
+    color: #a80a0a;
+  font-size: 1.2rem;
+  transition: color 0.4s ease;
+}
+
+.cardi p{
+    color:white;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+.cardi:hover{
+    background-color: #4b0f0f;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.2);
+  border-color: white;
+}
+
+.cardi:hover h3{
+    color:white;
+}
+
+
 
 footer {
   background-color: #3b0a0a;
