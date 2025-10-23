@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
->>>>>>> d9c8d1f4b10c919314a7c7f8a8d92eb3c85127d2
-th {
-    background-color:deepskyblue;
-}
-
-table{
-    border-collapse: collapse;
-}
-
-td , th {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    width: 200px;
-}
-
-.nota {
-    background-color: red;
-    
-}
-
-.ap{
-    background-color: greenyellow;
-<<<<<<< HEAD
 
 th {
     background-color:deepskyblue;
@@ -50,8 +22,7 @@ td , th {
 .ap{
     background-color: greenyellow;
 
-=======
-=======
+}
 th {
     background-color:deepskyblue;
 }
@@ -74,6 +45,29 @@ td , th {
 
 .ap{
     background-color: greenyellow;
->>>>>>> 1dd61f722528e1950a4d633c52bc68af912ac971
->>>>>>> d9c8d1f4b10c919314a7c7f8a8d92eb3c85127d2
+
+}
+th {
+    background-color:deepskyblue;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td , th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.nota {
+    background-color: red;
+    
+}
+
+.ap{
+    background-color: greenyellow;
+
 }
