@@ -1,0 +1,149 @@
+* {
+    margin: 30px;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: direcao 3s alternate infinite;
+    }
+
+
+@keyframes direcao {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+    from  {background-color: black;}
+    to {background-color: gray;}
+}
+
+.quadradin {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: cores 6s infinite;
+}
+
+@keyframes cores {
+    0% {background-color: red;}
+    33% {background-color: green;}
+    66% {background-color: blue;}
+    100% {background-color: red;}
+}
+
+.botao {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    animation: botao  5s infinite;
+
+}
+
+@keyframes botao {
+    0% {
+        transform: scale(1);
+        background-color: gray;
+        color: white;
+    }
+    50% {
+        transform: scale(1.5);
+        background-color: goldenrod;
+        color: black;
+    }
+    100% {
+        transform: scale(1);
+        background-color: black;
+        color: goldenrod;
+    }
+}
+
+.texto {
+    color: red;
+    animation: tex 2s alternate infinite;
+    }
+
+    @keyframes tex {
+        0% {
+            color: red;
+        }
+        50% {
+            color: darkblue;
+        }
+        100% {
+            color: wheat;
+        }
+    }
+
+.sol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    border: 5px solid black;
+    background-color: aliceblue;
+    overflow: hidden;
+
+} 
+
+.img {
+    width: 50%;
+    animation: sol 4s alternate infinite;
+}
+
+   @keyframes sol {
+    0% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+   }
+   
+   .coracao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    border: 5px solid black;
+    background-color: aliceblue;
+    overflow: hidden;
+    }
+
+   .imgcoracao {
+    width: 50%;
+    animation: coracao 1.5s alternate infinite;
+   }
+
+    @keyframes coracao {
+        0% {
+        transform: scale(1);
+    }
+        100% {
+        transform: scale(1.5)
+    }
+
+   }
+
+    .frase {
+        color: blueviolet;
+        animation: frase 2s alternate infinite;
+    }
+
+    @keyframes frase {
+        0%{
+            transform: translateY(200px);
+        }
+        100%{
+            transform: translateY(5px);
+        }
+    }
