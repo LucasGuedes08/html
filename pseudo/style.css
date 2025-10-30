@@ -1,0 +1,142 @@
+div{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.botao1{
+    background-color: blue;
+    color: white;
+    transition: 1s ease-in-out;
+}
+.botao1:hover {
+    background-color: lightgreen;
+    color: black;
+}
+.botao2 {
+    background-color: green;
+    color: white;
+    transition: 1s ease-in-out;
+}
+.botao2:hover {
+    background-color: orange;
+    color: black;
+}
+.botao3 {
+    background-color: purple;
+    color: white;
+    transition: 1s ease-in-out;
+}
+.botao3:hover {
+    background-color: yellow;
+    color: black;
+}
+.botao4 {
+    background-color: black;
+    color: white;
+    transform: scale(1.0);
+}
+.botao4:active {
+   transform: scale(0.5);
+}
+.input1:focus {
+    border: 2px solid red;
+    outline: none;
+    box-shadow: 0px 0px 10px red;
+}
+.input2:focus {
+    border: 2px solid green;
+    outline: none;
+    box-shadow: 0px 0px 10px green;
+}
+.input3:focus {
+    border: 2px solid blue;
+    outline: none;
+    box-shadow: 0px 0px 10px blue;
+}
+.gelo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    display: flex;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+.mago {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    width: 600px;
+    height: 600px;
+    margin-top: 80px;
+    transition: 0.3s ease-in-out;
+}
+.mago:hover {
+    transform: scale(1.2);
+    background-color: lightskyblue;
+    box-shadow: 15px 15px 15px black;
+}
+
+.lucas:hover {
+    filter: grayscale();
+}
+
+.calleri:hover {
+    filter: grayscale();
+}
+
+.luciano:hover {
+    filter: grayscale();
+}
+
+.pressionado {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+}
+.pressionado:hover {
+    background-color: rgb(0, 153, 255);
+    }
+
+.pressionado:active {
+    background-color: darkblue;
+    color: white;
+    transform: scale(0.7);
+    }
+    
+.pressionado:focus{
+    border: 2px solid darkblue;
+    outline: none;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.nome:focus{
+    border: 2px solid red;
+    outline: none;
+}
+.email:focus{
+    border: 2px solid red;
+    outline: none;
+}
+
+.botao:focus{
+    border: 2px solid red;
+    outline: none;
+}
+.botao:hover {
+    background-color: greenyellow;
+}
+
+.botao:active {
+    transform: scale(0.8);
+}
